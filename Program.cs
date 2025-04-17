@@ -75,6 +75,6 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Main}/{action=Index}/{id?}"); // <-- Update in AspnetCoreMvcStarter
+    pattern: "{controller=Home}/{action=Index}/{id?}"); // <-- Update in AspnetCoreMvcStarter
 
 app.Run();
